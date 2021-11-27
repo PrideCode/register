@@ -12,7 +12,9 @@ jobs:
       - uses: borales/actions-yarn@v2.3.0
         with:
           cmd: install
-      - uses: borales/actions-yarn@v2.3.0
+      - name: Deploying
+        env:
+          TOKEN: ${{ secrets.AUTH_TOKEN }}
+        uses: borales/actions-yarn@v2.3.0
         with:
-          args: ${{ secrets.AUTH_TOKEN }}
           cmd: ci
