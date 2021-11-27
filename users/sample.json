@@ -1,0 +1,12 @@
+{
+    "discord_id": "000000000000000000",
+    "media": {
+
+        "WARNING!": "The media object must contain at least one of the following entrys! (You can delete this row)",
+
+        "email": "john.doe@example.com",
+        "twitter": "john.doe",
+        "instagram": "john.doe",
+        "facebook": "john.doe"
+    }
+}
