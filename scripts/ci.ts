@@ -1,1 +1,1 @@
-console.log('This function isn\'t completed yet. Env Variables: '+process.env)
+console.log('This function isn\'t completed yet. Env Variables: '+process.env.token)
