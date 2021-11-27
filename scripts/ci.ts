@@ -1,3 +1,3 @@
 console.log('This function isn\'t completed yet.')
 
-console.log(process.env.token)
+console.log(process.env.TOKEN)
